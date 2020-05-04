@@ -1,0 +1,14 @@
+root@ip-172-31-80-10:/home/ubuntu/terransible# aws route53 create-reusable-delegation-set --caller-reference 1224 --profile superhero
+{
+    "Location": "https://route53.amazonaws.com/2013-04-01/delegationset/N03406811YPLSDE0J15BJ", 
+    "DelegationSet": {
+        "NameServers": [
+            "ns-944.awsdns-54.net", 
+            "ns-1808.awsdns-34.co.uk", 
+            "ns-1375.awsdns-43.org", 
+            "ns-42.awsdns-05.com"
+        ], 
+        "CallerReference": "1224", 
+        "Id": "/delegationset/N03406811YPLSDE0J15BJ"
+    }
+}
